@@ -1,0 +1,18 @@
+﻿@model int[]
+
+<div>
+    <div style="text-align:center;">
+        @if (Model[0] == 1)
+        {
+            <h1>Hepsi tamamlandı. Puanınız : @Model[1]</h1>
+        }
+        else
+        {
+            <h1>Süre Doldu. Puanınız : @Model[1]</h1>
+        }
+    </div>
+    <br />
+    
+    <button class="btn start" onclick="location.href='/OyunBasladi'">Yeniden Başla</button>
+</div>
+

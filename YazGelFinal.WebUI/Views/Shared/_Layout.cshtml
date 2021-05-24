@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="~/css/styleSheet.css" rel="stylesheet" />
+    <link href="~/lib/icofont/icofont.min.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="center">
+        Kart Eslestirme Oyunu
+    </header>
+    <div class="wrapper">
+        <div class="effect center">
+            @RenderBody()
+        </div>
+
+
+    </div>
+    <footer class="center">Metin Cem Bayraktar<br>Yazılım Geliştirme Laboratuvarı 2 - Final</footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    @RenderSection("Scripts", false)
+</body>
+</html>
