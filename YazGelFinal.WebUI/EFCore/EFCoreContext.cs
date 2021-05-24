@@ -11,7 +11,7 @@ namespace YazGelFinal.WebUI.EFCore
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=sql.poseidon.domainhizmetleri.com;Initial Catalog=metince1_yazgel2;User ID=metince1_webapps;Password=MetinCem*08;");
+            optionsBuilder.UseSqlServer("Server=sql.poseidon.domainhizmetleri.com;Initial Catalog=metince1_yazgel2;User ID=*******;Password=******;");
         }
 
         public DbSet<Card> Cards { get; set; }
